@@ -2,20 +2,24 @@
 <html lang="en">
     <head>
         <title>Standard Search</title>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
-    <body>
+    <body class="background">
         <div>
-            <a href=images.html>Image Search</a>
-            <a href=Advanced.html>Advanced Search</a>
+            <a class="links" href=images.html>Image Search</a>
+            <a class="links" href=Advanced.html>Advanced Search</a>
         </div>
         <br>
-        <div><h1>STANDARD SEARCH</h1></div>
+        <div class="main"><a class="tittles">STANDARD SEARCH</a></div>
         <div>
             <form method=”get” action="https://google.com/search">
-                <input type="text" name="q">
-                <br>
+                <div>
+                    <input class="search" type="text" name="q">
+                </div>  
                 <input type="submit" name="btnK" value="Google Search" class="button">
-                <input type="submit" name="btnI" value="I'm Feeling Lucky" class="button">
+                <input type="submit" name="btnI" style="margin-left: 350px;" value="I'm Feeling Lucky" class="button">
             </form>
         </div>
         </body>      

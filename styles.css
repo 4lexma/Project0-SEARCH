@@ -1,0 +1,68 @@
+.links{
+    color: darkred;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: right;
+    float: right;
+    padding: 20px;
+}
+.tittles{
+    color: rgb(151, 43, 43);
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    float: center;
+    padding: 30px;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+.background{
+    background-color: rgb(235, 235, 235);
+}
+.search{
+    border: 1px;
+    color: rgb(78, 78, 78);
+    width: 700px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 420px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding-left: 10px;
+}
+.button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    float: center;
+    margin-left: 420px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: white;
+}
+.button2{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    float: center;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: white;
+    }
+.button:hover{
+    background-color: rgb(243, 243, 243);
+}
+.button2:hover{
+    background-color: rgb(240, 240, 240);
+}
