@@ -1,5 +1,5 @@
 .links{
-    color: darkred;
+    color: rgb(62, 62, 253);
     font-size: 15px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,13 +9,13 @@
     padding: 20px;
 }
 .tittles{
-    color: rgb(151, 43, 43);
+    color: rgb(95, 95, 255);
     font-size: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 .tittles2{
-    color: rgb(151, 43, 43);
+    color: rgb(95, 95, 255);
     font-size: 30px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +64,7 @@
     left: 420px;
     margin-top: 30px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(122, 122, 255);
 }
 .button2{
     position: absolute;
@@ -77,7 +77,7 @@
     left: 1135px;
     top: 249px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(122, 122, 255);
     }
 .button3{
     position: absolute;
@@ -88,16 +88,18 @@
     left: 80px;
     top: 450px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(69, 69, 145);
+    color: white;
 }
 .button:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(109, 109, 255);
 }
 .button2:hover{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(109, 109, 255);
 }
 .button3:hover{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(80, 80, 165);
+    color: black;
 }
 .table1{
     position: relative;
